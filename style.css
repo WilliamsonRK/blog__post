@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width:480px) {
+    .nav__bar{
+        background-color: #5E8B7E;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+        margin-bottom: 10px;
+        font-size: 2rem ;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title{
+        font-size:18px;
+        margin-bottom: 15px;
+        padding: 0 10px;
+        
+    }
+
+
+    .image-container{
+        width:100%;
+        padding: 0 10px;
+        margin-bottom: 15px;
+
+    }
+    img{
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+    }
+    span{
+        font-size: 12px;
+    }
+
+    .blog__body{
+        padding: 0 10px;
+        color: rgba(0, 0,0,.7);
+    }
+
+
+
+
+}
